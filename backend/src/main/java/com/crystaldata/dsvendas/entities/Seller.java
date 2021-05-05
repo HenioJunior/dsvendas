@@ -9,6 +9,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "tb_sellers")
 public class Seller implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
