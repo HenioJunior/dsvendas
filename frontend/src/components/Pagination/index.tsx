@@ -1,4 +1,5 @@
 import { SalePage } from "types/sale";
+import './styles.css';
 
 type Props = {
   page: SalePage;
@@ -8,7 +9,7 @@ type Props = {
 const Pagination = ({ page, onPageChange } : Props) => {
 
   return (
-    <div className="row d-flex justify-content-center">
+    <div className="pagination-container">
       <nav>
         <ul className="pagination">
           <li className={`page-item ${page.first ? 'disabled': ""}`}>

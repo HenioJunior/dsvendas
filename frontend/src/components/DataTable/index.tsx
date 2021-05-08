@@ -33,7 +33,7 @@ const DataTable = () => {
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
-            <tr>
+            <tr className="">
               <th>Data</th>
               <th>Vendedor</th>
               <th>Clientes visitados</th>

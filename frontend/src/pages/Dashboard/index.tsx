@@ -3,6 +3,7 @@ import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
+import './styles.css';
 
 const Dashboard = () => {
   return (
@@ -13,11 +14,11 @@ const Dashboard = () => {
 
       <div className="row px-3">
         <div className="col-sm-6">
-          <h5 className="text-center text-secundary">Taxa de sucesso(%)</h5>
+          <h5 className="text-center text-secundary text-color">Taxa de sucesso(%)</h5>
           <BarChart />
         </div>
         <div className="col-sm-6">
-          <h5 className="text-center text-secundary">Todas vendas</h5>
+          <h5 className="text-center text-secundary text-color">Todas vendas</h5>
           <DonutChart />
         </div>
       </div>
