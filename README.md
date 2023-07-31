@@ -65,13 +65,3 @@ yarn start
 Henio Junior
 
 https://www.linkedin.com/in/henioalcantara
-
-
-
-
-
-
-# dsvendas
-Segue o link do projeto implantado no Netlify: https://crystaldata-dsvendas.netlify.app/
-
-Como o backend foi implantado no heroku, caso o mesmo esteja inativo, será necessário aguardar uns 30s e efetuar o reload da página.
